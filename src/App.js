@@ -25,6 +25,9 @@ function App() {
         <Route path="/Facts/CarbonFootprint" exact>
           <Home/>
         </Route>
+        <Route path="/Facts/CarbonFootprint" exact>
+          <Feedback/>
+        </Route>
         </Switch>
         </main>
       </Router>
