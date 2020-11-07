@@ -27,8 +27,10 @@ export default class Feedback extends React.Component {
        */
       render (){
         return (
-           
-                <form onSubmit={this.handleSubmit} id="form">
+          <div>
+            <div className="formImg"></div>
+
+<form onSubmit={this.handleSubmit} id="form">
                  <div class=" input-group">
                 <textarea class="form-control" aria-label="With textarea"name="email" onChange={this.handleChangeInputQuestion} placeholder="Email"></textarea>
                 </div>
@@ -41,6 +43,9 @@ export default class Feedback extends React.Component {
                 
                 <button type="submit" className="btn-send" name="Send">Send</button>
                 </form>
+          </div>
+           
+                
                 
                     
       );

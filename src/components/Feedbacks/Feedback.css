@@ -6,24 +6,37 @@
     font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: large;
+    font-size: 1.5rem;
     margin-left: 7%;
+    width: 20%;
+    height:3%
 }
 .form-control{
     border-color: #182e7B;
     border-radius: 15px;
-    width: 20%;
+    border-width: 2px;
+    width: 30%;
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 10px;
 
 }
 #form{
-    margin-top: 20%;
+    position: relative;
+    margin-top: -30%;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 #mssg{
     height: 100px;
 }
 
+.formImg{
+    background-image: url('../../assets/img/form.png');
+    height: 100vh;
+    width: 60vw;
+    background-size: cover;
+    margin-left: 50%;
+    margin-top: -5%;
+    
+}
