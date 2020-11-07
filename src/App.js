@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import MainNavigation from './components/Navigation/MainNavigation'
+import Feedback from './components/Feedbacks/Feedback'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path="/Facts/CarbonFootprint" exact>
           <Home/>
         </Route>
-        <Route path="/Facts/CarbonFootprint" exact>
+        <Route path="/Feedback" exact>
           <Feedback/>
         </Route>
         </Switch>

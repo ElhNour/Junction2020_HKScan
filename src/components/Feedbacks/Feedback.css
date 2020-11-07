@@ -1,0 +1,29 @@
+.btn-send{
+    background-color: #182e7B;
+    color: white;
+    font-family: 'Segoe UI';
+    border-radius: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    margin-left: 7%;
+}
+.form-control{
+    border-color: #182e7B;
+    border-radius: 15px;
+    width: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+
+}
+#form{
+    margin-top: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+#mssg{
+    height: 100px;
+}
+
