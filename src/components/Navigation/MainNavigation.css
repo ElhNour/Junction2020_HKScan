@@ -20,7 +20,7 @@ header {
     margin-top: 5rem;
   }
 
-  .logo{
+   .logo-nav{
       align-items: initial;
       position: relative;
       margin-left: -50%;
@@ -32,9 +32,10 @@ header {
       
       
   }
-  img{
-      height: 100%;
-  }
+   .logo-nav img{
+    width: 180px;
+    height: 80px;
+}
 
  
 

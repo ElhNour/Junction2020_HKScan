@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const MainNavigation = (props) => {
   return (
     <header>
-        <NavLink to="/" className="logo">
+        <NavLink to="/" className="logo-nav">
         <img src={logo} alt="" />
         </NavLink>
     
