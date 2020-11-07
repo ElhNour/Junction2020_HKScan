@@ -1,0 +1,50 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+div.home{
+    position: fixed;
+    margin: 0;
+    background-image: url('../assets/img/bg.PNG');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img .bg {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    size: 100%;
+    z-index: -10;
+}
+
+p{
+    position: relative;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 5%;
+    
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    align-self: start;
+    height: 5%;
+    width:30%;
+    margin-left: -60%;
+    position: relative;
+    font-size: large;
+
+}
